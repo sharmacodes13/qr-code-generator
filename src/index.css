@@ -1,0 +1,152 @@
+*{
+  background: #162545;
+  color: antiquewhite;
+}
+body{
+  text-align: center;
+  justify-content: center;
+  padding: 5;
+}
+.main-heading {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #d0dae8; /* neutral dark */
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+  margin-top: 5px;
+}
+
+.main-heading:hover {
+  color: #3b82f6; /* cool blue on hover */
+}
+.url-input{
+  color: #162545;
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  outline: none;
+  box-shadow: 0 0 0 0 transparent;
+}
+.url-input:focus {
+  border-color: #3b82f6; /* cool blue */
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1); /* subtle glow */
+}
+
+.url-input::placeholder {
+  color: #aaa;
+  transition: color 0.2s ease;
+}
+
+.url-input:focus::placeholder {
+  color: #ccc;
+}
+
+button {
+  padding: 17px 40px;
+  margin-top: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: rgb(35, 23, 23);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  text-transform: uppercase;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+img{
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  margin: 2rem auto;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  border-top: 1px solid #1e293b;
+}
+
+footer a {
+  color: #0ea5e9;
+  margin-top: 0.5rem;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #38bdf8;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: #3b82f6; /* Tailwind Blue */
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.download-btn:hover {
+  background: #2563eb; /* Darker blue */
+  transform: translateY(-2px);
+}
+
+.download-btn:active {
+  background: #1d4ed8;
+  transform: translateY(0);
+}
+
