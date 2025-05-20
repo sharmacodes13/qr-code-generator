@@ -18,7 +18,6 @@ Built with ❤️ by [Ayush Sharma](https://www.linkedin.com/in/ayush-sharma13/)
 ## 🖼️ Demo
 
 Try it out @ https://qrgen-ayush.vercel.app/
-(Or include your deployed link here)
 
 ---
 
