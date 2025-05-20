@@ -2,6 +2,7 @@ import React from 'react';
 import QRcode from 'qrcode';
 import { useState } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const [url, setUrl] = useState('');

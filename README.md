@@ -17,7 +17,7 @@ Built with ❤️ by [Ayush Sharma](https://www.linkedin.com/in/ayush-sharma13/)
 
 ## 🖼️ Demo
 
-Coming soon on Vercel / Netlify  
+Try it out @ https://qrgen-ayush.vercel.app/
 (Or include your deployed link here)
 
 ---
