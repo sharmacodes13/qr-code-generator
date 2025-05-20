@@ -1,3 +1,4 @@
+import React from 'react';
 import QRcode from 'qrcode';
 import { useState } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
